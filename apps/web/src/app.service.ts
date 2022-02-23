@@ -9,6 +9,7 @@ export class AppService {
     this.client = ClientProxyFactory.create({
       transport: Transport.TCP,
       options: {
+        host: "app",
         port: 4000,
       },
     })

@@ -1,0 +1,20 @@
+version: '3'
+services:
+  app:
+    build:
+      dockerfile: ./Dockerfile
+      args:
+        - project=app
+    expose:
+      - 4000
+    ports:
+      - 4000:4000
+  web:
+    build:
+      dockerfile: ./Dockerfile
+      args:
+        - project=web
+    expose:
+      - 3000
+    ports:
+      - 3000:3000
