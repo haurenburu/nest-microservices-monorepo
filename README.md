@@ -31,31 +31,29 @@
 ```bash
 $ npm install
 ```
-
-## Running the app
-
+Or
 ```bash
-# development
-$ npm run start
-
-# watch mode
-$ npm run start:dev
-
-# production mode
-$ npm run start:prod
+$ yarn
 ```
 
-## Test
+## Running the app microservice
 
 ```bash
-# unit tests
-$ npm run test
+$ npm run start app
+```
+Or
+```bash
+$ yarn start app
+```
 
-# e2e tests
-$ npm run test:e2e
+## Running the web microservice
 
-# test coverage
-$ npm run test:cov
+```bash
+$ npm run start web
+```
+Or
+```bash
+$ yarn start web
 ```
 
 ## Support
